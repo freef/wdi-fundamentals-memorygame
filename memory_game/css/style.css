@@ -1,0 +1,36 @@
+body{
+	background: rgba(30,30,30,1);
+	color:rgba(225,225,225,1);
+	text-align:center;
+}
+a{
+	color:rgba(200,150,0);
+	text-decoration:inherit;
+}
+h1{
+	font-family:"raleway", sans-serif;
+	color:#0D2c40;
+	letter-spacing: 1px;
+	font-weight:400;
+	font-size:45px;
+}
+h2{
+	font-family:"raleway", sans-serif;
+	color:#F15B31;
+	letter-spacing: 1px;
+	font-weight:600;
+	font-size:18px;	
+}
+h3{
+	font-family:"raleway", sans-serif;
+	color:#0D2c40;
+	letter-spacing: 1px;
+	font-weight:600;
+	font-size:20px;	
+}
+p{
+	font-family:"Droid Serif", serif;
+	text-decoration:none;
+	line-height:26px;
+	font-size:18px;
+}
