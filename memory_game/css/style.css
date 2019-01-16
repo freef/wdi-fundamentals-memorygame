@@ -2,10 +2,17 @@ body{
 	background: rgba(30,30,30,1);
 	color:rgba(225,225,225,1);
 	text-align:center;
+	margin:0;
 }
 a{
+	text-decoration:none;
 	color:rgba(200,150,0);
-	text-decoration:inherit;
+	border-bottom:2px solid transparent;
+	margin:0 20px;
+	color:white;
+}
+a:hover{
+	border-color:white;
 }
 h1{
 	font-family:"raleway", sans-serif;
@@ -13,6 +20,7 @@ h1{
 	letter-spacing: 1px;
 	font-weight:400;
 	font-size:45px;
+	margin:0;
 }
 h2{
 	font-family:"raleway", sans-serif;
@@ -34,3 +42,53 @@ p{
 	line-height:26px;
 	font-size:18px;
 }
+header{
+	background-color:#F15b31;
+	color:#FFFFFF;
+	padding:30px 20px;
+}
+nav{
+	background-color:#00A6b3;
+	color:#FFFFFF;
+	padding:20px 0;
+}
+main{
+	width:850px;
+	margin:35px auto;
+}
+img{
+	margin:40px 8px 0 8px;
+}
+footer{
+	text-transform:uppercase;
+	padding:0 20px;
+	background-color:#0D2c40;
+	color:white;
+	font-size:14px
+	letter-spacing:.08em;
+	font-weight: 500;
+}
+.copyright .message{
+	font-family:'raleway', arial, sans-serif;
+
+}
+.copyright{
+	float:left;
+}
+.message{
+	float:right;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.name{
+	color:#F15b31;
+	font-weight: 700;
+}
+
